@@ -13,7 +13,6 @@ SET /P URL="Enter video URL: "
 echo: ---------------------------------
 echo:
 echo: ==============================================
-::if URL=="1" (goto :No_url) ELSE (goto :MainMenu)
 
 
 :MainMenu
@@ -194,8 +193,6 @@ goto :MainMenu
 exit /b
 
 
-::yt-dlp -P "D:/Video" -f "bv+ba" -o "%(title)s.%(upload_date>%Y-%m-%d)s.%(ext)s" --add-metadata -S ext:mp4:m4a --live-from-start
-::yt-dlp -P "D:/Video" -f "bv+ba" -o "%(title)s.%(ext)s" --add-metadata -S ext:mp4:m4a --download-sections "*00:00-1:00"
 
 
 :No_url
