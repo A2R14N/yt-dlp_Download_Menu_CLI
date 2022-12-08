@@ -1,5 +1,5 @@
 # Important
-This script requiers: <br />
+This script requires: <br />
 * [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) <br />
 * [**ffmpeg** and **ffprobe**](https://www.ffmpeg.org)<br />
 # ytdlp-batch
