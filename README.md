@@ -3,7 +3,7 @@ This script requires: <br />
 * [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) <br />
 * [**ffmpeg** and **ffprobe**](https://www.ffmpeg.org)<br />
 # ytdlp-batch
-These batch files are only intended to make it easier for users of the `ytdlp.exe` releases of https://github.com/yt-dlp/yt-dlp (Source: https://github.com/yt-dlp/yt-dlp) to download high-quality videos from YouTube (or other websites) without the use of third-party services or software clients (since these frequently have video quality limitations).
+This batch file is only intended to make it easier for users of the `ytdlp.exe` releases of https://github.com/yt-dlp/yt-dlp (Source: https://github.com/yt-dlp/yt-dlp) to download high-quality videos from YouTube (or other websites) without the use of third-party services or software clients (since these frequently have video quality limitations).
 
 The audio and video files for videos with video quality higher than 720p must be downloaded separately, then combined into one file (that's just how YouTube works for some reason). FFmpeg (https://www.ffmpeg.org/) must be installed on your computer or the `ffmpeg.exe` file must be located in the same folder as `ytdlp.exe` in order for `ytdlp` to combine video and audio files.
 
