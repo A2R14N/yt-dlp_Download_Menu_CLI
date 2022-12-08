@@ -7,7 +7,7 @@ These batch files are only intended to make it easier for users of the `ytdlp.ex
 
 The audio and video files for videos with video quality higher than 720p must be downloaded separately, then combined into one file (that's just how YouTube works for some reason). FFmpeg (https://www.ffmpeg.org/) must be installed on your computer or the `ffmpeg.exe` file must be located in the same folder as `ytdlp.exe` in order for `ytdlp` to combine video and audio files.
 
-**Keep in mind that for it to function, the `ytdlp.exe` file needs to be kept in the same directory as the Easy_download.bat file.**
+**Keep in mind that for it to function, the `ytdlp.exe` file needs to be kept in the same directory as the `Easy_download.bat` file.**
 
 ## Easy_download.bat
 This script includes: <br />
