@@ -44,7 +44,7 @@ echo %e%[30m"          %e%[31m--------------------------------------------------
 echo %e%[30m"          %e%[31m[9] Exit%e%[30m"
 echo %e%[30m"       %e%[32m_________________________________________________________________%e%[30m"
 echo:
-echo %e%[30m"          Enter an option on the Keyboard [1,2,3,4,5,6,7,8,9]: %e%[30m"%e%[31m
+echo %e%[30m"          %e%[32mEnter an option on the Keyboard %e%[31m[1,2,3,4,5,6,7,8,9]%e%[32m: %e%[30m"%e%[31m
 
 choice /C 123456789 /n /m "Input:"
 
