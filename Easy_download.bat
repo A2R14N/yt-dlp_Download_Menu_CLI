@@ -115,8 +115,8 @@ echo:
 echo: 1)Yes 2)No
 choice /c 12 /n /m "Input:"
 
-if %errorlevel% == 1 set musicconvert=-x
-if %errorlevel% == 2 set musicconvert=
+if %errorlevel% == 1 set musicconvert=-x & set audioformat=--audio-format mp3
+if %errorlevel% == 2 set musicconvert= & set audioformat=
 ::--------------------------------------------------------------------
 echo:
 echo: Add Upload date on title?
@@ -124,10 +124,10 @@ echo:
 echo: 1)Yes 2)No
 choice /c 12 /n /m "Input:"
 
-if %errorlevel% == 1 set upldate=.%%(upload_date>%%Y-%%m-%%d)s
+if %errorlevel% == 1 set "upldate=.%%(upload_date>%%Y-%%m-%%d)s"
 if %errorlevel% == 2 set upldate=
 ::--------------------------------------------------------------------
-echo: 
+echo:
 echo: Add metadata?
 echo:
 echo: 1)Yes 2)No
@@ -212,7 +212,7 @@ cls
 color 0A
 echo: ==============================================
 echo:
-yt-dlp %musicconvert% -o "Downloads/Custom/%%(title)s%%%upldate%.%%(ext)s" %metadata% -f "%format%" %livestream% %thumbnail% %URL%
+yt-dlp %musicconvert% -o "Downloads/Custom/%%(title)s%upldate%.%%(ext)s" %metadata% -f "%format%" %livestream% %thumbnail% %audioformat% %URL%
 color 0A
 echo:
 echo: ==============================================
