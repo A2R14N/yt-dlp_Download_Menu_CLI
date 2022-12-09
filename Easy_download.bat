@@ -10,7 +10,7 @@ title Enter URL
 color 0A
 cls
 mode 80, 30
-echo %e%[30m" %e%[32m==============================================%e%[30m"
+echo %e%[30m" %e%[32m==============================================%e%[30m"%e%[31m
 echo:
 echo %e%[30m" Some URL can brick this script :)%e%[30m"
 echo %e%[30m" %e%[31m---------------------------------%e%[30m"%e%[31m
