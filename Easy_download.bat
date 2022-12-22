@@ -48,15 +48,15 @@ echo %e%[30m"          %e%[32mEnter an option on the Keyboard %e%[31m[1,2,3,4,5,
 
 choice /C 123456789 /n /m "Input:"
 
-if %errorlevel%==1 setlocal & call :MusicPreset                 endlocal & cls & goto :MainMenu
-if %errorlevel%==2 setlocal & call :VideosPreset                endlocal & cls & goto :MainMenu
-if %errorlevel%==3 setlocal & call :OngoingLivestream           endlocal & cls & goto :MainMenu
-if %errorlevel%==4 setlocal & call :CustomPreset                endlocal & cls & goto :MainMenu
-if %errorlevel%==5 setlocal & call :?????????????               endlocal & cls & goto :MainMenu
-if %errorlevel%==6 setlocal & call :Update                      endlocal & cls & goto :MainMenu
-if %errorlevel%==7 start https://linktr.ee/a2r14n                        & cls & goto :MainMenu
-if %errorlevel%==8 setlocal & call :Enter_url                   endlocal & cls & goto :MainMenu
-if %errorlevel%==9 goto :Exit                                            & cls
+if %errorlevel%==1 setlocal & goto :MusicPreset                 & endlocal & cls & goto :MainMenu
+if %errorlevel%==2 setlocal & goto :VideosPreset                & endlocal & cls & goto :MainMenu
+if %errorlevel%==3 setlocal & goto :OngoingLivestream           & endlocal & cls & goto :MainMenu
+if %errorlevel%==4 setlocal & goto :CustomPreset                & endlocal & cls & goto :MainMenu
+if %errorlevel%==5 setlocal & goto :?????????????               & endlocal & cls & goto :MainMenu
+if %errorlevel%==6 setlocal & goto :Update                      & endlocal & cls & goto :MainMenu
+if %errorlevel%==7 start https://linktr.ee/a2r14n                          & cls & goto :MainMenu
+if %errorlevel%==8 setlocal & goto :Enter_url                   & endlocal & cls & goto :MainMenu
+if %errorlevel%==9 goto :Exit
 PAUSE
 ::--------------------------------------------------------------------
 ::--------------------------------------------------------------------
