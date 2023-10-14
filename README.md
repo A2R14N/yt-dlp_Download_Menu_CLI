@@ -2,6 +2,7 @@
 This script requires: <br />
 * [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) <br />
 * [**ffmpeg** and **ffprobe**](https://www.ffmpeg.org)<br />
+>If you download the latest release, you don't need to install anything else
 # ytdlp-batch
 This batch file is only intended to make it easier for users of the `ytdlp.exe` releases of https://github.com/yt-dlp/yt-dlp (Source: https://github.com/yt-dlp/yt-dlp) to download high-quality videos from YouTube (or other websites) without the use of third-party services or software clients (since these frequently have video quality limitations).
 
@@ -11,10 +12,10 @@ The audio and video files for videos with video quality higher than 720p must be
 
 ## Easy_download.bat
 This script includes: <br />
-* Quick Music Download at max Quality <br />
-* Quick Video Download at max Quality <br />
-* Ongoing Live Stream Download from start if the live has DVR on <br />
-* Ytdlp Updater <br />
+* Audio Download at max Quality <br />
+* Video Download at max Quality <br />
+* Ongoing Live Stream Download from start **if the live has DVR ON** <br />
+* ytdlp Update <br />
 
 ## Note
 The files in this repository are currently basic. Nothing in this is too serious; it's just meant to be enjoyable. Later, I might include more features. If you'd like, feel free to contribute!
