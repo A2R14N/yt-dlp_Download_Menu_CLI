@@ -16,7 +16,7 @@ echo:
 echo %e%[30m" %e%[31m1%e%[37m.Video %e%[30m"
 echo %e%[30m" %e%[31m2%e%[37m.Audio %e%[30m"
 echo %e%[30m" %e%[31m3%e%[37m.Livesteam %e%[30m"
-echo %e%[30m" %e%[31m4%e%[37m.Cookies form Browser "%e%[31m%browser%%e%[37m" %e%[31m (Empty means disabled) %e%[30m"
+echo %e%[30m" %e%[31m4%e%[37m.Cookies from Browser "%e%[31m%browser%%e%[37m" %e%[31m (Empty means disabled) %e%[30m"
 echo:
 echo %e%[30m" %e%[31m9%e%[37m.Change url %e%[30m"
 echo %e%[30m" %e%[31m0%e%[37m.Exit %e%[30m"
