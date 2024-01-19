@@ -38,6 +38,8 @@ This script includes:
 
 * **3.2** LiveStream Download from the current time **if the live has DVR ON**
 
+* **4.** Retrieve cookies from your browser (enabling this will use them for any option mentioned above).
+
 * **U.** yt-dlp Updater
 
 ## Note
