@@ -32,13 +32,19 @@ This script includes:
 
 * **1.2** Download TikTok videos for Discord with watermark or in h264 format.
 
-* **2.** Audio Download at Highest Quality
+* **1.3** Video Segment Fetch Download
+
+* **2.1** Audio Download at Highest Quality
 
 * **3.1** Livestream Download from start (Currently only supported for YouTube)**if the livestream has DVR ON**
 
 * **3.2** LiveStream Download from the current time **if the live has DVR ON**
 
-* **4.** Retrieve cookies from your browser (enabling this will use them for any option mentioned above).
+* **4.1** Retrieve cookies from your browser (enabling this will use them for any option mentioned above).
+
+* **D.** Enable debug verbose (can be used in [yt-dlp discord](https://discord.gg/NbWxxtNt9x))
+
+* **F.** List formats
 
 * **U.** yt-dlp Updater
 
