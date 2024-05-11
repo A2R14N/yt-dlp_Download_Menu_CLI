@@ -23,30 +23,52 @@ This batch file is only intended to make it easier for users of the `ytdlp.exe` 
 
 The audio and video files for videos with video quality higher than 720p must be downloaded separately, then combined into one file (that's just how YouTube works for some reason). [FFmpeg](https://www.ffmpeg.org/) must be installed on your computer or the `ffmpeg.exe` file must be located in the same folder as `ytdlp.exe` in order for `yt-dlp` to combine video and audio files.
 
+## Screenshots
+![Main Menu](https://i.imgur.com/YajeV2W.png)
+![URL Menu](https://i.imgur.com/9MFQi5X.png)
+![Video Menu](https://i.imgur.com/09FxmFv.png)
+![Audio Menu](https://i.imgur.com/mqPMOEm.png)
+![Music Menu](https://i.imgur.com/L2UmlHR.png)
+![Livestream Menu](https://i.imgur.com/mtKEUsB.png)
+![Settings Menu](https://i.imgur.com/BJ3Eq5L.png)
 
-## Easy_download.bat
+## Menu.cmd
 
 This script includes:
 
-* **1.1** Video Download at Highest Quality for any website supported
+* **1.1** Video Download from YOUTUBE, REDDIT, FACEBOOK, INSTAGRAM, [others](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 
-* **1.2** Download TikTok videos for Discord with watermark or in h264 format.
+* **1.2** Download TIKTOK videos for DISCORD with watermark or in h264 format.
 
-* **1.3** Video Segment Fetch Download
+* **1.3** Video Segment Fetch(this will be applied in option 1,2).
 
-* **2.1** Audio Download at Highest Quality
+* **2.1** Audio Download from YOUTUBE, REDDIT, FACEBOOK, INSTAGRAM, [others](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 
-* **3.1** Livestream Download from start (Currently only supported for YouTube)**if the livestream has DVR ON**
+* **2.2** Audio Segment Fetch(this will be applied in option 1).
 
-* **3.2** LiveStream Download from the current time **if the live has DVR ON**
+* **3.1** Music Download from Youtube, Youtube Music, and [others supported](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 
-* **4.1** Retrieve cookies from your browser (enabling this will use them for any option mentioned above).
+* **4.1** Livestream Download from start (Currently only supported for YouTube)**if the livestream has DVR ON**
 
-* **D.** Enable debug verbose (can be used in [yt-dlp discord](https://discord.gg/NbWxxtNt9x))
+* **4.2** Livestream Download from the current time.
 
-* **F.** List formats
+* **4.3** Livestream Download from twitch.
 
-* **U.** yt-dlp Updater
+* **5.1** Change Video Output format (avi, flv, mkv, mov, mp4, webm).
+
+* **5.2** Change Audio Output format (aac, aiff, alac, flac, m4a, mka, mp3, ogg, opus, vorbis, wav).
+
+* **5.3** Change Music Output format (aac, aiff, alac, flac, m4a, mka, mp3, ogg, opus, vorbis, wav).
+
+* **5.4** Mode for video editors, this function will exclude some unsupported formats by Premiere Pro.
+
+* **5.5** Retrieve cookies from your browser (enabling this will use them for any option mentioned above).
+
+* **5.6** Enable debug verbose (can be used in [yt-dlp discord](https://discord.gg/NbWxxtNt9x))
+
+* **5.7** List formats
+
+* **5.8** yt-dlp Updater
 
 ## Note
 
